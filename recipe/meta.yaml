@@ -1,5 +1,5 @@
 {% set name = "lux-widget" %}
-{% set version = "0.1.3" %}
+{% set version = "0.1.4" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/lux-widget-{{ version }}.tar.gz
-  sha256: f410138514f355c8c9de4f1f8c9534495c5418e9ea1041e8eff03a84b507b60b
+  sha256: c8a4238f192f318ed075707760c66a38c6950923ab67aa8ce48c7476713d6df0
 
 build:
   number: 0
@@ -45,4 +45,4 @@ about:
 
 extra:
   recipe-maintainers:
-    - dorisjlee 
+    - dorisjlee
