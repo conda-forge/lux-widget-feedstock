@@ -1,5 +1,5 @@
 {% set name = "lux-widget" %}
-{% set version = "0.1.4" %}
+{% set version = "0.1.5" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/lux-widget-{{ version }}.tar.gz
-  sha256: c8a4238f192f318ed075707760c66a38c6950923ab67aa8ce48c7476713d6df0
+  sha256: 7b5fdb63a240acc9d61da1fe2c1085f1f65768bcbdfe7ead5e3097afa9ac72a2
 
 build:
   number: 0
