@@ -19,13 +19,11 @@ requirements:
   host:
     - ipywidgets >=7.5.0
     - jupyter
-    - notebook >=4.0.0
     - pip
     - python >=3.6
   run:
     - ipywidgets >=7.5.0
     - jupyter
-    - notebook >=4.0.0
     - python >=3.6
 
 test:
